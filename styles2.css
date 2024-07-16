@@ -1,0 +1,88 @@
+/* Apply styles to body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0f4d7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style heading */
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form elements */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  select, button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  select {
+    width: calc(100% - 22px); /* Adjust for border width */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style results */
+  #results {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  #results p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #results ul {
+    padding-left: 20px;
+  }
+  
+  #results li {
+    list-style-type: square;
+    color: #666;
+  }
+
+  .container {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  width: 500px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+  

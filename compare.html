@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Analyse</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+    <h1>Crop Profit Comparison</h1> 
+    <label for="season-select">Select Season:</label> 
+    <select id="season-select"> 
+        <option value="Kharif">Kharif</option> 
+        <option value="Rabi">Rabi</option> 
+    </select> 
+    <label for="algorithm-select">Select Algorithm:</label> 
+    <select id="algorithm-select"> 
+        <option value="Genetic">Genetic Algorithm</option> 
+        <option value="Differential Evolution">Differential Evolution</option> 
+        <option value="Particle Swarm Optimization">Particle Swarm Optimization</option> 
+        <option value="Evolutionary Programming">Evolutionary Programming</option> 
+    </select> 
+    <button id="show-result-btn">Show Result</button>
+    <canvas id="chart-container" width="60" height="30"></canvas>
+    <canvas id="execution-time-chart-container" width="60" height="30"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="script.js"></script> 
+    <button id="compare-all-btn" style="margin-top: 20px;">Compare All</button>
+</body> 
+</html>

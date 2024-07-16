@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Analysis</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Crop Analysis</h1>
+    <label for="season">Select Season:</label>
+    <select id="season">
+      <option value="Kharif">Kharif</option>
+      <option value="Rabi">Rabi</option>
+    </select>
+    <br>
+    <label for="algorithm">Select Algorithm:</label>
+    <select id="algorithm">
+      <option value="Genetic">Genetic</option>
+      <option value="DifferentialEvolution">Differential Evolution</option>
+      <option value="ParticleSwarmOptimization">Particle Swarm Optimization</option>
+      <option value="EvolutionaryProgramming">Evolutionary Programming</option>
+    </select>
+    <br>
+    <button onclick="getResults()">Get Results</button>
+    <div id="results"></div>
+  </div>
+  <img src="images\IMG_ES1lMVLR1rBJ.png" alt="" srcset="">
+  <script src="script2.js"></script>
+</body>
+</html>
